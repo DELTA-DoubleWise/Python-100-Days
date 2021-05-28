@@ -18,7 +18,8 @@ def main():
     for index in range(len(names)):
         print('%s: %.1f分' % (names[index], scores[index]))
         total += scores[index]
-    print('平均成绩是: %.1f分' % (total / number))
+    print('平均成绩是: %.1f分' % (total / number)) 
+
 
 
 if __name__ == '__main__':
